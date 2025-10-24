@@ -78,4 +78,14 @@
     height="200" 
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luiz-chr&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=7&title_color=9932CC&text_color=FFA500&bg_color=0d1117"
 />
+
+
+
+<picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luiz-chr/Luiz-chr/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luiz-chr/Luiz-chr/output/github-contribution-grid-snake-dark.svg">
+  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Luiz-chr/Luiz-chr/output/github-contribution-grid-snake.svg">
+</picture>
+
+
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=9932CC&height=120&section=footer"/>
