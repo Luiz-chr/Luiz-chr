@@ -76,7 +76,7 @@
     align="left" 
     alt="GitHub stats"
     height="200" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizchr&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=7&title_color=9932CC&text_color=FFA500&bg_color=0d1117"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luiz-chr&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=7&title_color=9932CC&text_color=FFA500&bg_color=0d1117"
 />
 
 
