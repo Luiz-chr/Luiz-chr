@@ -1,14 +1,14 @@
 name: Generate pacman animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule: # executa a cada 12 horas
+    - cron: "0 */12 * * *"
 
   workflow_dispatch:
 
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
@@ -18,13 +18,24 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate pacman-contribution-graph.svg
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
+      - name: Customize SVG (black background + smaller size)
+        run: |
+          mkdir -p dist
+          cp pacman-contribution-graph.svg dist/
+          # Adiciona fundo preto
+          sed -i '/<svg / s|>| style="background-color:black;">|' dist/pacman-contribution-graph.svg
+          # Reduz tamanho (ex: 600x120)
+          sed -i 's/viewBox="0 0 [0-9]* [0-9]*"/viewBox="0 0 600 120"/' dist/pacman-contribution-graph.svg
 
-      - name: push pacman-contribution-graph.svg to the output branch
+      - name: Push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
