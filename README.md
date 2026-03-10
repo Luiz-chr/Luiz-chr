@@ -3,7 +3,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=9932CC&size=35&center=true&vCenter=true&width=1000&lines=Olá,+Meu+Nome+é+Luiz+Victor;Eu+sou+estudante+de+Ciência+da+Computação;Bem+Vindo!+:%29)](https://git.io/typing-svg) 
 
 #
-<p align="center">Me chamo Luiz, tenho 20 anos e sou natural do Pará. Concluí o curso técnico em informática na Centec. Atualmente, estou cursando Ciência da Computação na FUCAPI. Gosto de explorar novas tecnologias e transformar ideias em projetos reais. Venho desenvolvendo sites, APIs e aplicações que me ajudam a evoluir como programador.
+<p align="center">Me chamo Luiz. Atualmente, estou cursando Ciência da Computação na FUCAPI. Gosto de explorar novas tecnologias e transformar ideias em projetos reais. Venho desenvolvendo sites, APIs e aplicações que me ajudam a evoluir como programador.
 
 #
 
