@@ -5,6 +5,8 @@
 #
 <p align="center">Me chamo Luiz. Atualmente, estou cursando Ciência da Computação na FUCAPI. Gosto de explorar novas tecnologias e transformar ideias em projetos reais. Venho desenvolvendo sites, APIs e aplicações que me ajudam a evoluir como programador.
 
+
+
 #
 
 ###  Linguagens e Tecnologias
